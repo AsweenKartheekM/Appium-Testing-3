@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-25T18:53:04 IST" name="Suite" finished-at="2026-09-25T18:53:33 IST" duration-ms="28113">
+    <groups>
+    </groups>
+    <test started-at="2026-09-25T18:53:04 IST" name="master" finished-at="2026-09-25T18:53:33 IST" duration-ms="28113">
+      <class name="com.qa.tests.logintests">
+        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.logintests@247bddad]" started-at="2026-09-25T18:53:04 IST" name="beforetest" finished-at="2026-09-25T18:53:15 IST" duration-ms="10365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.logintests@247bddad]" started-at="2026-09-25T18:53:15 IST" name="beforemethod" finished-at="2026-09-25T18:53:16 IST" duration-ms="1049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.logintests.invalidpassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="invalidpassword()[pri:0, instance:com.qa.tests.logintests@247bddad]" started-at="2026-09-25T18:53:16 IST" name="invalidpassword" finished-at="2026-09-25T18:53:21 IST" duration-ms="4936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidpassword -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.logintests@247bddad]" started-at="2026-09-25T18:53:21 IST" name="beforemethod" finished-at="2026-09-25T18:53:21 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.logintests.invalidusername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="invalidusername()[pri:0, instance:com.qa.tests.logintests@247bddad]" started-at="2026-09-25T18:53:21 IST" name="invalidusername" finished-at="2026-09-25T18:53:26 IST" duration-ms="4744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidusername -->
+        <test-method is-config="true" signature="beforemethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.logintests@247bddad]" started-at="2026-09-25T18:53:26 IST" name="beforemethod" finished-at="2026-09-25T18:53:26 IST" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.logintests.successfullogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="successfullogin()[pri:0, instance:com.qa.tests.logintests@247bddad]" started-at="2026-09-25T18:53:26 IST" name="successfullogin" finished-at="2026-09-25T18:53:30 IST" duration-ms="4561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullogin -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:com.qa.tests.logintests@247bddad]" started-at="2026-09-25T18:53:30 IST" name="aftertest" finished-at="2026-09-25T18:53:33 IST" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.qa.tests.logintests -->
+    </test> <!-- master -->
+  </suite> <!-- Suite -->
+</testng-results>

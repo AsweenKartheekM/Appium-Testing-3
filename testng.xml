@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="master">
+  	<parameter name="platformName" value="Android"/>
+  	<parameter name="platformVersion" value="14"/>
+  	<classes>
+  		<class name="com.qa.tests.logintests"></class>
+  	</classes>
+  </test> <!-- master -->
+</suite> <!-- Suite -->
